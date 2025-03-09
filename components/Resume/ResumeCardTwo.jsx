@@ -1,6 +1,5 @@
-"use client";
 import { useTheme } from "next-themes";
-import resumeData from "@/data/resumeData";
+import resumeData from "../../data/resumeData";
 
 const ResumeCardTwo = () => {
   const { theme, setTheme } = useTheme();

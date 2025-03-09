@@ -1,14 +1,13 @@
-"use client";
 import Image from "next/image";
 import { FiUser, FiCode, FiFilePlus, FiExternalLink } from "react-icons/fi";
 import { BsXCircle } from "react-icons/bs";
 import Masonry from "react-masonry-css";
 import Modal from "react-modal";
-import portfolioData from "@/data/worksData";
+import portfolioData from "../../data/worksData";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
-// Modal.setAppElement("#__next");
+Modal.setAppElement("#__next");
 
 const Works2 = () => {
   const breakpointColumnsObj = {
@@ -140,7 +139,6 @@ const Works2 = () => {
 
       {/* Start Modal for portfolio items */}
       <Modal
-        ariaHideApp={false}
         isOpen={isOpen}
         onRequestClose={() => setIsOpen(false)}
         className=" outline-none flex items-center  p-4 md:p-8  rounded-2xl my-8"

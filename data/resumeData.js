@@ -9,25 +9,25 @@ module.exports = [
     items: [
       {
         id: 1,
-        date: "2021-2023",
-        title: "Ph.D in Horriblensess ",
-        place: "ABC University, Los Angeles, CA",
+        date: "2016",
+        title: "BE Computer Engineering ",
+        place: "North Maharashtra University",
         bg: "#FFF4F4",
       },
 
       {
         id: 2,
-        date: "2019 - Present",
-        title: "Sr. Software Tester",
-        place: "Google Inc.",
+        date: "2009 ",
+        title: "Diploma in Electronics Engg",
+        place: "Maharashtra State Board of Technical Education ",
         bg: "#FFF1FB",
       },
 
       {
         id: 3,
-        date: "2021",
-        title: "Best Developer ",
-        place: "University Of Melbourne, NA",
+        date: "2004",
+        title: "SSC ",
+        place: "Maharashtra State Education Board ",
         bg: "#FFF4F4",
       },
     ],
@@ -39,25 +39,25 @@ module.exports = [
     items: [
       {
         id: 1,
-        date: "2017-2021",
-        title: "Computer Science",
-        place: "Imperialize Technical Institute",
+        date: "From-2023",
+        title: "Deputy Manager",
+        place: "Reliance Industries Limited",
         bg: "#EEF5FA",
       },
 
       {
         id: 2,
-        date: "2015-2017",
-        title: "Cr. Web Developer",
-        place: "ib-themes ltd.",
+        date: "2021-2023",
+        title: "Kubernetes Admin",
+        place: "ACL Digital (Alten Calsoft Labs)",
         bg: "#F2F4FF",
       },
 
       {
         id: 3,
-        date: "2008",
-        title: "Best Writter",
-        place: "Online Typodev Soluation Ltd.",
+        date: "2018-2021",
+        title: "Technical Support Engineer (AWS)",
+        place: "Dixit Infotech Services Pvt. Ltd",
         bg: "#EEF5FA",
       },
     ],

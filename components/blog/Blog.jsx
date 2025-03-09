@@ -1,8 +1,6 @@
-"use client";
-
 import { BsXCircle } from "react-icons/bs";
 import Modal from "react-modal";
-import blogsData from "@/data/blogsData";
+import blogsData from "../../data/blogsData";
 import Image from "next/image";
 import { useState } from "react";
 import Social from "../social/Social";
@@ -66,7 +64,6 @@ const Blog = () => {
 
       {/* Blog modal start  */}
       <Modal
-        ariaHideApp={false}
         isOpen={isOpen}
         onRequestClose={() => setIsOpen(false)}
         className="outline-none flex items-center p-4 md:p-8  rounded-2xl my-8"
@@ -111,7 +108,7 @@ const Blog = () => {
 
             {/* Start Social Share */}
             <div className="flex items-center md:justify-end space-x-4 mt-8 mr-3">
-              <h6 className="dark:text-white text-[20px] ">Share:</h6>
+              <h6 className="dark:text-white text-[20px] ">Login with:</h6>
               <div className="flex  space-x-3">
                 <Social />
               </div>

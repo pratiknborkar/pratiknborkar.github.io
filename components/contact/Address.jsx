@@ -1,7 +1,6 @@
-"use client";
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import addressData from "@/data/addressData";
+import addressData from "../../data/addressData";
 
 const Address = () => {
   const { theme, setTheme } = useTheme();

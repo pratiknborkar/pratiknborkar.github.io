@@ -7,21 +7,14 @@ module.exports = [
       <>
         <p>
           <a
-            href="tel:+452 666 386"
+            href="tel:+91-8080732802"
             className="text-gray-lite text-lg dark:text-[#A6A6A6] "
           >
-            +452 666 386
+            +91-8080732802
           </a>
         </p>
 
-        <p>
-          <a
-            href="tel:+654 764 878"
-            className="text-gray-lite text-lg dark:text-[#A6A6A6] "
-          >
-            +654 764 878
-          </a>
-        </p>
+        
       </>
     ),
     bg: "#FCF4FF",
@@ -34,21 +27,23 @@ module.exports = [
       <>
         <p>
           <a
-            href="mailto:ibthemes21@gmail.com"
+            href="mailto:pratiknborkar@gmail.com"
             className="text-gray-lite text-lg dark:text-[#A6A6A6] "
           >
-            ibthemes@gmail.com
+            pratiknborkar@gmail.com
           </a>
         </p>
 
         <p>
           <a
-            href="mailto:xyz@abc.com"
+            href="mailto:pratiknborkar@gmail.com"
             className="text-gray-lite text-lg dark:text-[#A6A6A6] "
           >
-            mailto:xyz@abc.com
+            contact@pratiknborkar.com
           </a>
         </p>
+
+        
       </>
     ),
     bg: "#EEFBFF",
@@ -60,10 +55,10 @@ module.exports = [
     info: (
       <>
         <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">
-          Maount View, Oval
+          Navi Mumbai 
         </p>
         <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">
-          Road, New York, USA
+          Mumbai, India
         </p>
       </>
     ),

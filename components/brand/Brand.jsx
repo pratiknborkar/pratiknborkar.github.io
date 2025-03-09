@@ -1,7 +1,6 @@
-"use client";
 import Image from "next/image";
 import Slider from "react-slick";
-import brandSlideData from "@/data/brandSlideData";
+import brandSlideData from "../../data/brandSlideData";
 
 brandSlideData;
 

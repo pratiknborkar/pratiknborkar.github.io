@@ -1,4 +1,3 @@
-"use client";
 import { Line } from "rc-progress";
 import React from "react";
 
@@ -7,26 +6,38 @@ const LineItem = ({ item }) => {
     {
       id: 1,
       color: "#FF6464",
-      name: "Web Design",
-      number: "80",
+      name: "Kubernetes Admin",
+      number: "90",
     },
     {
       id: 2,
       color: "#9272D4",
-      name: "Mobile App ",
-      number: "95",
+      name: "AWS Cloud ",
+      number: "85",
     },
     {
       id: 3,
       color: "#5185D4",
-      name: "Illustrator",
-      number: "65",
+      name: "Cloud Migration",
+      number: "75",
     },
     {
       id: 4,
       color: "#CA56F2",
-      name: "Photoshope",
-      number: "75",
+      name: "SRE & Observability",
+      number: "85",
+    },
+    {
+      id: 5,
+      color: "#CA56F2",
+      name: "Oracle Cloud Infrastructure",
+      number: "80",
+    },
+    {
+      id: 6,
+      color: "#CA56F2",
+      name: "Best Practice Solutions for Cyberdefense (CIS)",
+      number: "90",
     },
   ];
 

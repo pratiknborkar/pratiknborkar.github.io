@@ -1,15 +1,16 @@
 const Tag = () => {
   const tagList = [
-    "Digital Design",
-    "Marketing",
-    "Social Media",
-    "Print",
-    "Time Management",
-    "Flexibility",
-    "Print",
-    "Time Management",
-    "Flexibility",
-    "Print",
+    "Kubernetes Admin",
+    "Prometheus",
+    "Observability",
+    "Cloud Migration",
+    "Oracle Cloud Infrastructure",
+    "Amazon Web Services",
+    "Alert Manager",
+    "Grafana",
+    "Container - Orchestration",
+    "VM & Cluster Hardening",
+    "Reverse Proxy",
   ];
   return (
     <>

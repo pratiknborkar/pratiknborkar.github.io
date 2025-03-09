@@ -1,12 +1,16 @@
+import Image from "next/image";
+
 const Comments = () => {
   return (
     <div className="rounded-lg mt-6 bg-gradient-to-r from-[#FA5252] to-[#DD2476] p-[1px] mr-3">
       <div className=" dark:bg-[#232220] bg-[#ffffff]   flex  p-4 rounded-lg  ">
         <div>
-          <img
-            className="md:w-[125px] rounded-xl "
+          <Image
+            className="md:w-[125px] rounded-xl"
             src="/images/about/about.jpg"
             alt="user"
+            width={125}
+            height={125}
           />
         </div>
         <div className="pl-5">

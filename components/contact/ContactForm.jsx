@@ -1,4 +1,3 @@
-"use client";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
@@ -13,10 +12,10 @@ const CommonContact = ({ condition }) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_zti7aoo",
+        "template_ok5xp5r",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "EnDJcrakJM6F_QEAE"
       )
       .then(
         (result) => {
@@ -56,11 +55,11 @@ const CommonContact = ({ condition }) => {
     >
       <h3 className="text-4xl  ">
         <span className="text-gray-lite dark:text-[#A6A6A6] ">
-          I&apos;m always open to discussing product
+          As a Kubernetes/Cloud admin, collaboration is key to optimizing infrastructure and driving innovation.
         </span>
         <br />
         <span className="font-semibold dark:text-white">
-          design work or partnerships.
+          Let&apos;s connect and explore opportunities !
         </span>
       </h3>
 
