@@ -55,7 +55,7 @@ const Info = () => {
       icon: <FaCalendarAlt />,
       iconColor: "text-[#C17CEB]",
       name: "Work Experience",
-      meta: <> 6 Years</>,
+      meta: <> 7 Years</>,
     },
   ];
 
