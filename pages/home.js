@@ -52,6 +52,7 @@ const index = () => {
       {/* End main continer */}
     </section>
   );
+
 };
 
 export default dynamic(() => Promise.resolve(index), { ssr: false });
