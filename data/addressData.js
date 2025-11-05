@@ -7,10 +7,10 @@ module.exports = [
       <>
         <p>
           <a
-            href="tel:+91-8080732802"
+            href="tel:+91-9091167666"
             className="text-gray-lite text-lg dark:text-[#A6A6A6] "
           >
-            +91-8080732802
+            +91-9091167666
           </a>
         </p>
 
@@ -42,7 +42,6 @@ module.exports = [
             contact@pratiknborkar.com
           </a>
         </p>
-
         
       </>
     ),

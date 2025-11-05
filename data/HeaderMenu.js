@@ -18,7 +18,13 @@ module.exports = [
     icon: <CgNotes />,
   },
   {
-    id: 5,
+    id: 3,
+    name: "Blogs",
+    routePath: "/blogs",
+    icon: <FaBlogger />,
+  },
+  {
+    id: 4,
     name: "Contact",
     routePath: "/contact",
     icon: <RiContactsBookLine />,

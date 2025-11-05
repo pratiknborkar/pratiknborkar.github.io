@@ -1,15 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable React strict mode
   reactStrictMode: true,
-  
-  // Enable unoptimized image loading
+  output: "export",
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'blog.pratiknborkar.com',
+      },
+    ],
   },
-  
-  // Configure static HTML export
-  output: 'export',
-}
+};
 
 module.exports = nextConfig;

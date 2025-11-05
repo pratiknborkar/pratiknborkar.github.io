@@ -41,6 +41,16 @@ const index = () => {
               </section>
               {/* service provide end */}
 
+              <section className="px-2 sm:px-5 md:px-10 lg:px-14 mb-10">
+                <h3 className="text-[35px] dark:text-white font-medium pb-5">
+                  My Certifications!
+                </h3>
+                <div className="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto   py-10 rounded-xl">
+                  <Brand />
+                </div>
+              </section>
+
+              {/* client info end */}
               <Footer />
               {/* Common Footer call here */}
             </div>
@@ -52,7 +62,6 @@ const index = () => {
       {/* End main continer */}
     </section>
   );
-
 };
 
 export default dynamic(() => Promise.resolve(index), { ssr: false });

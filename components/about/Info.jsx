@@ -17,9 +17,9 @@ const Info = () => {
         <>
           <a
             className="hover:text-[#FA5252] duration-300 transition"
-            href="tel:+918080732802"
+            href="tel:+919091167666"
           >
-            +91-8080732802
+            +91-9091167666
           </a>
         </>
       ),
@@ -55,7 +55,7 @@ const Info = () => {
       icon: <FaCalendarAlt />,
       iconColor: "text-[#C17CEB]",
       name: "Work Experience",
-      meta: <> 7 Years</>,
+      meta: <> 7.5 Years</>,
     },
   ];
 
